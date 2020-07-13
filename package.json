@@ -14,5 +14,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "uuid": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
