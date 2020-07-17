@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.use('/people', usersRoutes);
  
 app.get('/', () => res.send('Welcome to the Users API!'));
-app.all('*', () =>res.send("You've tried reaching a route that doesn't exist."));
+app.all('*', () => res.send("You've tried reaching a route that doesn't exist."));
 
 app.listen(PORT, () => console.log(`Server running on port: http://localhost:${PORT}`));
 
